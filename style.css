@@ -11,7 +11,7 @@
    BODY / BACKGROUND
 ========================= */
 body {
-    background-image: url("jesusbackground.jpg");
+    background-image: url(jesusbackground.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
