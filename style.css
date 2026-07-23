@@ -44,13 +44,6 @@ body {
 /* =========================
    CENTER CONTENT
 ========================= */
-.center-content {
-    margin-top: 35px;
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    margin-left: 20px;
-}
 
 .video-layout {
     display: flex;
