@@ -52,11 +52,33 @@ body {
     margin-left: 20px;
 }
 
-.vid {
-    width: 1250px;
-    height: auto;
+.video-layout {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+
+    margin: 50px 50px;
 }
 
+.vid {
+    width: 1400px;
+    height: auto;
+    border-radius: 12px;
+}
+
+/* BUTTON COLUMN */
+
+.button-column {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.button-column .btn {
+    margin: 0;
+    width: 220px;
+    text-align: center;
+}
 /* =========================
    BUTTON
 ========================= */
@@ -263,4 +285,21 @@ body {
     .center-content {
         padding: 0 10px;
     }
+
+    .video-layout {
+    flex-direction: column;
+    margin: 30px 10px;
+}
+
+.vid {
+    width: 100%;
+}
+
+.button-column {
+    width: 100%;
+}
+
+.button-column .btn {
+    width: 100%;
+}
 }
