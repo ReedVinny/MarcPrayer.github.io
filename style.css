@@ -459,3 +459,69 @@ body:has(.prayer) .heading {
     }
 
 }
+
+.slideshow {
+    max-width: 850px;
+    margin: 40px auto;
+    padding: 24px;
+    text-align: center;
+}
+
+#slides-container {
+    min-height: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slide {
+    width: 100%;
+    font-size: 1.35rem;
+    line-height: 1.9;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    overflow-wrap: anywhere;
+}
+
+.slide[hidden] {
+    display: none;
+}
+
+.slide-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 24px;
+    flex-wrap: wrap;
+}
+
+.slide-controls button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.slide-controls button:disabled {
+    opacity: 0.45;
+    cursor: not-allowed;
+}
+
+#slide-counter {
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+@media (max-width: 600px) {
+    .slideshow {
+        margin: 20px auto;
+        padding: 12px;
+    }
+
+    .slide {
+        font-size: 1.1rem;
+        padding: 20px 10px;
+    }
+}
