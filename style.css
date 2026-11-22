@@ -25,6 +25,10 @@ body {
     min-height: 100vh;
 }
 
+#h2header {
+    text-align: center;
+    
+}
 
 /* =========================
    NAVBAR
